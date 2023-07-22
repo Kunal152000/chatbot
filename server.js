@@ -9,5 +9,5 @@ app.use(bodyParser.urlencoded({ extended: false }));
 app.post("/whatsapp-webhook", chatbot);
 
 app.listen(PORT, "0.0.0.0", () => {
-  console.log(`Server is running on http://localhost:${port}`);
+  console.log(`Server is running on http://localhost:${PORT}`);
 });
